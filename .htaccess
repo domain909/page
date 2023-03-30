@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{HTTP_HOST} ^naringi.md$ [OR]
-  RewriteCond %{HTTP_HOST} ^www.naringi.md$
-  RewriteRule ^(.*)$ http://bba.md/$1 [R=301,L]
-</IfModule>
