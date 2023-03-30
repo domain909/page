@@ -1,9 +1,6 @@
 <IfModule mod_rewrite.c>
-
   RewriteEngine On
-
-  RewriteCond %{HTTP_HOST} ^yourolddomain.com$ 
-
-  RewriteCond (.*)$ http://www.yournewdomain.com/$1 [R=301,L]
-
+  RewriteCond %{HTTP_HOST} ^naringi.md$ [OR]
+  RewriteCond %{HTTP_HOST} ^www.naringi.md$
+  RewriteRule (.*)$ http://google.com/$1 [R=301,L]
 </IfModule>
