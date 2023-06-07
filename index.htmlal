@@ -18,7 +18,9 @@
     <div class="row">
       <div class="info">
         <h3 class="hero-heading">Numele de domeniu NARINGI.MD este în vânzare.</h3>
-        <p class="hero-sub-heading">Pentru mai multe detalii puteți să ne contactați</p>
+        <p class="hero-sub-heading">Pentru a primi mai multe informații în legătură cu aspectele comerciale,</p> 
+	<p class="hero-sub-heading">vă rugăm să ne furnizați datele de contact, astfel încât să putem lua legătura cu dumneavoastră.</p>
+	<p class="hero-sub-heading">La fel, ne puteti scrie pe Telegram</p>
         
 		<form action="https://formspree.io/f/xgebnank" method="POST">
 		<div class="row">
